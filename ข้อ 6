@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	char stName[20];
+	int point,sum;
+	printf("Input name: ");
+	scanf("%s",&stName);
+	for (int i=1 ; i<=5 ; i++)
+		{
+			scanf("%d",&point);
+			if (point <= 100 && point >= 1)
+				{
+					sum+=point;
+				}
+				else
+					{
+						do
+						{
+							scanf("%d",&point);
+							if(point <= 100 && point >= 1)
+								{
+									sum+=point;
+								}
+							else
+								{						
+								}
+						}
+						while (!(point <= 100 && point >= 1));
+					}
+		}
+		printf("%s Sum=%d Avg=%d", stName, sum ,sum/5);		
+}
