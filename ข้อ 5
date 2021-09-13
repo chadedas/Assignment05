@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int number,col;
+	printf("Input number = ");
+	scanf ("%d",&number);
+		if (number <= 20)
+   
+	for(int i = 1;i <= number;i++)
+      {
+      	for(col = 1;col <= i;col++)
+      	{
+         		printf("%d ",i);
+      	}
+      	printf("\n");
+      }
+}
