@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int number,i=0;
+	float sum=0;
+	do
+	{
+		printf ("Enter Number: ");
+		scanf("%d",&number);
+		sum+=number;
+		i++;
+	}
+	while (i < 10);
+	printf ("\n\n****Result****");
+	printf ("\nAverage = %.3f",sum/10.0);
+	
+}
